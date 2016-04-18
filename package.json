@@ -1,0 +1,60 @@
+{
+  "name": "boomeditor",
+  "version": "0.0.1",
+  "description": "Boom! Editor application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node server.js",
+    "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register",
+    "lint": "eslint . --ext .js --ext .jsx --cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoomEditor/editor.git"
+  },
+  "keywords": [
+    "editor"
+  ],
+  "author": "David Jacquel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BoomEditor/editor/issues"
+  },
+  "homepage": "https://github.com/BoomEditor/editor#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.7.4",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.2.4",
+    "react-router-redux": "^4.0.2",
+    "redux": "^3.4.0",
+    "redux-thunk": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-eslint": "^6.0.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-register": "^6.7.2",
+    "cross-env": "^1.0.7",
+    "enzyme": "^2.2.0",
+    "eslint": "^2.8.0",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-react": "^5.0.1",
+    "expect": "^1.16.0",
+    "express": "^4.13.4",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^15.0.1",
+    "redux-devtools": "^3.2.0",
+    "redux-devtools-dock-monitor": "^1.1.1",
+    "redux-devtools-log-monitor": "^1.0.11",
+    "redux-logger": "^2.6.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
+  }
+}
