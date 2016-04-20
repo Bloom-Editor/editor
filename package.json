@@ -24,6 +24,7 @@
   "homepage": "https://github.com/BoomEditor/editor#readme",
   "dependencies": {
     "babel-polyfill": "^6.7.4",
+    "github-api": "^0.11.2",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
     "react-redux": "^4.4.5",
